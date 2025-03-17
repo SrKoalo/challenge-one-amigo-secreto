@@ -32,9 +32,9 @@ No terminal, clone o projeto:
 ```
 git clone https://github.com/SrKoalo/challenge-one-amigo-secreto/
 ```
-Abra o aquivo index.html em live server;
-Adicione nome no campo de preenchimento e adicione com o botão ao lado;
-Ao completar a lista, sorteie um nome;
+Abra o aquivo index.html em live server;<br>
+Adicione nome no campo de preenchimento e adicione com o botão ao lado;<br>
+Ao completar a lista, sorteie um nome;<br>
 Reinicie se desejar.
 
 ## Desenvolvedor :octocat:
