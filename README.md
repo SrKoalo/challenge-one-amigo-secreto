@@ -25,8 +25,6 @@
 
 https://srkoalo.github.io/challenge-one-amigo-secreto/
 
-Se ainda não houver deploy, insira capturas de tela da aplicação ou gifs
-
 ## Como rodar a aplicação :arrow_forward:
 
 No terminal, clone o projeto: 
