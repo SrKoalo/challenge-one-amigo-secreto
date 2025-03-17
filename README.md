@@ -39,4 +39,4 @@ Reinicie se desejar.
 
 ## Desenvolvedor :octocat:
 
-| ![69303033](https://github.com/user-attachments/assets/d9061c25-ce99-47e7-bdfb-f7aeb22c953f) |
+ [<img loading="lazy" src="https://github.com/user-attachments/assets/d9061c25-ce99-47e7-bdfb-f7aeb22c953f" width=115><br><sub>Lucas de França</sub>](https://github.com/SrKoalo)
