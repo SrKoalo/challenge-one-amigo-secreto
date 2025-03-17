@@ -9,9 +9,7 @@ function adicionarAmigo() {
         alert('Preencha o nome antes de adicionar');
     } else {
         nomeAmigos.push(nomeInserido.value);
-        console.log(nomeInserido.value);
         nomeInserido.value = '';
-        console.log(nomeAmigos);
         atualizarLista();
     }   
 }
@@ -31,7 +29,16 @@ function sortearAmigo() {
         alert('Preencha mais de um nome antes de sortear');
     } else {
         let nomeSorteado = parseInt(Math.random() * nomeAmigos.length)
-        console.log(nomeSorteado);
-        document.getElementById('listaAmigos').innerHTML = `<il>${nomeAmigos[nomeSorteado]}</il>`;
+        document.getElementById('listaAmigos').innerHTML = `<il>Seu amigo secreto é: ${nomeAmigos[nomeSorteado]}</il>`;
+        document.getElementById('btadd').setAttribute('disabled', true);
+        document.getElementById('btsor').setAttribute('disabled', true);
     }
+}
+
+function reiniciar() {
+    nomeAmigos = [];
+    let lista = document.getElementById('listaAmigos');
+    lista.innerHTML = '';
+    document.getElementById('btadd').removeAttribute('disabled');
+    document.getElementById('btsor').removeAttribute('disabled');
 }
